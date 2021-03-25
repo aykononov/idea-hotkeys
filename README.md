@@ -195,3 +195,46 @@
 >```
 
 </details>
+
+## IDEA (UBRIR)
+
+* настроить в соответствии со скриншотом:
+  
+![MavenProfiles](/img/MavenProfiles.JPG)
+  
+![JavaCompiller.JPG](/img/JavaCompiller.JPG)
+
+**"Ошибка импорта - import static oracle.jdbc.OracleTypes.VARCHAR;"**
+
+Нужно из проекта добавить библиотеку ojdbc8-1.0.jar в M2.
+
+1. В терминале IDEA  выполнить:  
+    
+    
+    mvn install:install-file -Dfile=./lib/ojdbc8-1.0.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=1.0 -Dpackaging=jar
+
+
+2. Обновить артефакты в IDEA -> Maven (справа вкладка)
+   
+    
+    Reload All Maven Projects
+
+
+**Ошибка при запуске тестот **
+
+
+В IDEA -> File -> Settings -> Build, Exclusion,Deployment -> Compiller -> Jav Compiller:
+
+Заменить команду: `-Xlint:none -Xdoclint:none -nowarn`
+
+на команду: `-parameters -Xlint:none -Xdoclint:none`
+
+
+В конце в терминале выполнить:
+
+    mvn clean
+    mvn -U clean install
+
+В IDEA -> File -> 
+    
+    Invalidate Caches/ Restart
