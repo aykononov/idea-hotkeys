@@ -201,12 +201,22 @@
 * настроить в соответствии со скриншотом:
   
 ![MavenProfiles](/img/MavenProfiles.JPG)
-  
+
+* настроить в соответствии со скриншотом:
+
 ![JavaCompiller.JPG](/img/JavaCompiller.JPG)
 
-**"Ошибка импорта - import static oracle.jdbc.OracleTypes.VARCHAR;"**
+File -> Settings -> Build, Exclusion,Deployment -> Compiller -> Jav Compiller:
 
-Нужно из проекта добавить библиотеку ojdbc8-1.0.jar в M2.
+Заменить команду: `-Xlint:none -Xdoclint:none -nowarn`
+
+на: `-parameters -Xlint:none -Xdoclint:none`
+
+### если возникает ошибка:
+  
+  `import static oracle.jdbc.OracleTypes.VARCHAR;`
+
+* нужно из проекта добавить библиотеку ojdbc8-1.0.jar в M2.
 
 1. В терминале IDEA  выполнить:  
     
@@ -220,19 +230,14 @@
     Reload All Maven Projects
 
 
-**Ошибка при запуске тестот **
+### если падают некоторые тесты:
 
 
-В IDEA -> File -> Settings -> Build, Exclusion,Deployment -> Compiller -> Jav Compiller:
 
-Заменить команду: `-Xlint:none -Xdoclint:none -nowarn`
-
-на команду: `-parameters -Xlint:none -Xdoclint:none`
 
 
 В конце в терминале выполнить:
 
-    mvn clean
     mvn -U clean install
 
 В IDEA -> File -> 
