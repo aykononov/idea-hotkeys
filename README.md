@@ -215,11 +215,11 @@ Ctrl + Shift + Q        В Scala-плагине определяет implicit п
 
 1. в терминале  `mvn -U clean install`
 
-2. IDEA `File -> Invalidate Caches/ Restart`
+2. IDEA -> File -> Invalidate Caches/ Restart
 
 ### Если возникает ошибка: 
 
-#### import static oracle.jdbc.OracleTypes.VARCHAR;
+### import static oracle.jdbc.OracleTypes.VARCHAR;
 
 * нужно из проекта добавить библиотеку `ojdbc8-1.0.jar` в репозиторий M2.
 
@@ -229,6 +229,6 @@ Ctrl + Shift + Q        В Scala-плагине определяет implicit п
 
 1. в терминале  `mvn -U clean install`
 
-2. IDEA `File -> Invalidate Caches/ Restart`
+2. IDEA -> File -> Invalidate Caches/ Restart
 
 </details>
