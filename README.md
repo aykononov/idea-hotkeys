@@ -200,7 +200,7 @@ Ctrl + Shift + Q        В Scala-плагине определяет implicit п
 
 ### Intellij Idea. Настройка
 
-* настроить в соответствии со скриншотом:
+* настроить в соответствии со скриншотами:
   
 ![MavenProfiles](/img/MavenProfiles.JPG)
 
@@ -217,7 +217,9 @@ Ctrl + Shift + Q        В Scala-плагине определяет implicit п
 
 2. IDEA `File -> Invalidate Caches/ Restart`
 
-### Если возникает ошибка: `import static oracle.jdbc.OracleTypes.VARCHAR;`
+### Если возникает ошибка: 
+
+#### import static oracle.jdbc.OracleTypes.VARCHAR;
 
 * нужно из проекта добавить библиотеку `ojdbc8-1.0.jar` в репозиторий M2.
 
