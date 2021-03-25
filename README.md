@@ -206,42 +206,34 @@ Ctrl + Shift + Q        В Scala-плагине определяет implicit п
 
 ![JavaCompiller.JPG](/img/JavaCompiller.JPG)
 
-File -> Settings -> Build, Exclusion,Deployment -> Compiller -> Jav Compiller:
+`File -> Settings -> Build, Exclusion,Deployment -> Compiller -> Jav Compiller :`
 
-Заменить команду: `-Xlint:none -Xdoclint:none -nowarn`
+Заменить команду `-Xlint:none -Xdoclint:none -nowarn`
 
-на: `-parameters -Xlint:none -Xdoclint:none`
+на `-parameters -Xlint:none -Xdoclint:none`
 
 ### если возникает ошибка:
   
   `import static oracle.jdbc.OracleTypes.VARCHAR;`
 
-* нужно из проекта добавить библиотеку ojdbc8-1.0.jar в M2.
+* нужно из проекта добавить библиотеку `ojdbc8-1.0.jar` в репозиторий M2.
 
 1. В терминале IDEA  выполнить:  
     
     
-    mvn install:install-file -Dfile=./lib/ojdbc8-1.0.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=1.0 -Dpackaging=jar
+`mvn install:install-file -Dfile=./lib/ojdbc8-1.0.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=1.0 -Dpackaging=jar`
 
 
 2. Обновить артефакты в IDEA -> Maven (справа вкладка)
    
     
-    Reload All Maven Projects
+`Reload All Maven Projects`
 
 
-### если падают некоторые тесты:
+* в конце в терминале выполнить:
 
+`mvn -U clean install`
 
-
-
-
-В конце в терминале выполнить:
-
-    mvn -U clean install
-
-В IDEA -> File -> 
-    
-    Invalidate Caches/ Restart
+В IDEA -> `File -> Invalidate Caches/ Restart`
 
 </details>
