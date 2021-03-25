@@ -196,43 +196,37 @@ Ctrl + Shift + Q        В Scala-плагине определяет implicit п
 
 </details>
 
-<details><summary>UBRR - настройки IDEA</summary>
+<details><summary>UBRR</summary>
+
+### Intellij Idea. Настройка
 
 * настроить в соответствии со скриншотом:
   
 ![MavenProfiles](/img/MavenProfiles.JPG)
 
-* настроить в соответствии со скриншотом:
 
 ![JavaCompiller.JPG](/img/JavaCompiller.JPG)
 
-Заменить команду `-Xlint:none -Xdoclint:none -nowarn`
+заменить команду `-Xlint:none -Xdoclint:none -nowarn`
 
 на `-parameters -Xlint:none -Xdoclint:none`
 
+* в конце выполнить:
 
-* в конце в терминале выполнить:
+1. в терминале  `mvn -U clean install`
 
-1. `mvn -U clean install`
+2. IDEA `File -> Invalidate Caches/ Restart`
 
-2. `IDEA -> File -> Invalidate Caches/ Restart`
-
-
-### если возникает ошибка:
-
-`import static oracle.jdbc.OracleTypes.VARCHAR;`
+### Если возникает ошибка: `import static oracle.jdbc.OracleTypes.VARCHAR;`
 
 * нужно из проекта добавить библиотеку `ojdbc8-1.0.jar` в репозиторий M2.
 
-1. В терминале IDEA  выполнить:
+ `mvn install:install-file -Dfile=./lib/ojdbc8-1.0.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=1.0 -Dpackaging=jar`
 
+* в конце выполнить:
 
-`mvn install:install-file -Dfile=./lib/ojdbc8-1.0.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=1.0 -Dpackaging=jar`
+1. в терминале  `mvn -U clean install`
 
-
-2. Обновить артефакты в IDEA -> Maven (справа вкладка)
-
-
-`Reload All Maven Projects`
+2. IDEA `File -> Invalidate Caches/ Restart`
 
 </details>
