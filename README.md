@@ -196,7 +196,7 @@ Ctrl + Shift + Q        В Scala-плагине определяет implicit п
 
 </details>
 
-<details><summary>UBRR - настройки</summary>
+<details><summary>UBRR - настройки IDEA</summary>
 
 * настроить в соответствии со скриншотом:
   
