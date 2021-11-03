@@ -105,7 +105,8 @@ Alt + циферка           Открытие/закрытие окон Projec
 Ctrl + Tab              Switcher, переключение между вкладками и окнами
 Shift + Esc             Закрыть активное окно
 F12                     Открыть последнее закрытое окно
-Ctrl + колесико         Zoom, если он был вами настроен
+Ctrl + колесико         Zoom, если он был вами настроен:
+                        (Settings -> Editor -> General | Mouse Control , ставим галочку на 'Change font size with Ctrl + Mouse')
 ```
 
 **Закладки:**  
