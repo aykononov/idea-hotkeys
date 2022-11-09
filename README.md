@@ -237,12 +237,12 @@ Ctrl + Shift + Q        В Scala-плагине определяет implicit п
 
 _Скачайте и извлектите файл_ [BlackVSC.icls](./Theme/BlackVSC.icls.zip "скачать BlackVSC.icls.zip") _из архива._
 
-![BlackVSC-Demo.jpg](./Theme/BlackVSC-Demo.jpg)
+![BlackVSC.png](./Theme/BlackVSC.png)
 
 **Белая тема для IntelliJ IDEA в стиле Visual Studio Code**
 
 _Скачайте и извлектите файл_ [WhiteVSC.icls](./Theme/WhiteVSC.icls.zip "скачать WhiteVSC.icls.zip") _из архива._
 
-![WhiteVSC-Demo.jpg](./Theme/WhiteVSC-Demo.jpg)
+![WhiteVSC.png](./Theme/WhiteVSC.png)
 
 </blockquote></details>
