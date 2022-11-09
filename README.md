@@ -1,4 +1,4 @@
-## IntelliJ IDEA Hotkeys - горячие клавиши
+## IntelliJ IDEA Hotkeys - горячие клавиши + Темы
 
 <details Java><summary>Java - горячие клавиши</summary>
 
