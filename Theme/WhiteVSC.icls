@@ -5,7 +5,7 @@
     <property name="ide">Idea</property>
     <property name="ideVersion">2022.2.3.0.0</property>
     <property name="modified">2022-11-09T07:24:14</property>
-    <property name="originalScheme">White</property>
+    <property name="originalScheme">WhiteVSC</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
   <option name="CONSOLE_LINE_SPACING" value="1.2" />

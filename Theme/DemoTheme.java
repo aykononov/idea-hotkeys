@@ -6,7 +6,7 @@ import java.util.List;
 import jdk.jfr.Timestamp;
 
 /**
- * Демонстрация темы в стиле Visual Studio Code
+ * Код для демонстрации темы в стиле Visual Studio Code
  */
 
 // TODO - для примера

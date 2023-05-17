@@ -1,4 +1,6 @@
-## IntelliJ IDEA Hotkeys - горячие клавиши + Темы
+## IntelliJ IDEA - Hotkeys (Горячие клавиши)
+
+## IntelliJ IDEA - Theme in style Visual Studio Code (Тема в стиле Visual Studio Code)
 
 <details Java><summary>Java - горячие клавиши</summary>
 
@@ -69,7 +71,7 @@
 
 </details>
 
-<details Редактор><summary>Редактор - горячие клавиши</summary>
+<details Редактор><summary>Редактор - горячие клавиши (Editor - hotkeys)</summary>
 
 ```
 Ctrl + Shift + U        Переключить в "ВЕРХНИЙ/нижний" регистр 
@@ -235,14 +237,18 @@ Ctrl + Shift + Q        В Scala-плагине определяет implicit п
 
 **Черная тема для IntelliJ IDEA в стиле Visual Studio Code**
 
-_Скачайте и извлектите файл_ [BlackVSC.icls](./Theme/BlackVSC.icls.zip "скачать BlackVSC.icls.zip") _из архива._
+_Скачайте и извлектите файл_ [BlackVSC.icls](./Theme/BlackVSC.zip "скачать BlackVSC.zip") _из архива._
 
 ![BlackVSC.png](./Theme/BlackVSC.png)
 
 **Белая тема для IntelliJ IDEA в стиле Visual Studio Code**
 
-_Скачайте и извлектите файл_ [WhiteVSC.icls](./Theme/WhiteVSC.icls.zip "скачать WhiteVSC.icls.zip") _из архива._
+_Скачайте и извлектите файл_ [WhiteVSC.icls](./Theme/WhiteVSC.zip "скачать WhiteVSC.zip") _из архива._
 
 ![WhiteVSC.png](./Theme/WhiteVSC.png)
+
+### Импорт темы в IntelliJ IDEA
+
+![SettingsTheme.png](./Theme/SettingsTheme.png)
 
 </blockquote></details>
