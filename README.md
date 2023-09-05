@@ -1,8 +1,6 @@
-## IntelliJ IDEA - Hotkeys (Горячие клавиши)
+### IntelliJ IDEA - Hotkeys (Горячие клавиши)
 
-## IntelliJ IDEA - Theme in style Visual Studio Code (Тема в стиле Visual Studio Code)
-
-<details Java><summary>Java - горячие клавиши</summary>
+<details Java><summary>Java - hotkeys</summary>
 
 ```
 Поиск/Замена (это земаст!)
@@ -71,7 +69,7 @@
 
 </details>
 
-<details Редактор><summary>Редактор - горячие клавиши (Editor - hotkeys)</summary>
+<details Редактор><summary>Editor - hotkeys</summary>
 
 ```
 Ctrl + Shift + U        Переключить в "ВЕРХНИЙ/нижний" регистр 
@@ -206,7 +204,7 @@ Ctrl + Shift + Q        В Scala-плагине определяет implicit п
 
 </details>
 
-<details Reload maven><summary>Перезагрузить все проекты Maven</summary>
+<details Reload maven><summary>How to reload all maven projects</summary>
 
 Перезагрузить все проекты Maven (Reload All Maven Projects)
 
@@ -231,6 +229,8 @@ Ctrl + Shift + Q        В Scala-плагине определяет implicit п
 тоже нужно 4. (Почему еще он есть в IntelliJ?)
 
 </details>
+
+### IntelliJ IDEA - Theme in style Visual Studio Code (Тема в стиле Visual Studio Code)
 
 <details Темы><summary>Темы для IntelliJ IDEA в стиле Visual Studio Code</summary>
 <blockquote>
